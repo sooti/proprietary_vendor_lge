@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd:system/etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd \
     vendor/lge/g3-common/proprietary/etc/firmware/BCM4339_003.001.009.0061.0312.hcd:system/etc/firmware/BCM4339_003.001.009.0061.0312.hcd \
     vendor/lge/g3-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/g3-common/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/lge/g3-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
