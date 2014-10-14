@@ -30,13 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/etc/acdbdata/g3/Hdmi_cal.acdb:system/etc/acdbdata/g3/Hdmi_cal.acdb \
     vendor/lge/g3-common/proprietary/etc/acdbdata/g3/Headset_cal.acdb:system/etc/acdbdata/g3/Headset_cal.acdb \
     vendor/lge/g3-common/proprietary/etc/acdbdata/g3/Speaker_cal.acdb:system/etc/acdbdata/g3/Speaker_cal.acdb \
-    vendor/lge/g3-common/proprietary/etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd:system/etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd \
-    vendor/lge/g3-common/proprietary/etc/firmware/BCM4339_003.001.009.0061.0312.hcd:system/etc/firmware/BCM4339_003.001.009.0061.0312.hcd \
     vendor/lge/g3-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g3-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/lge/g3-common/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
-    vendor/lge/g3-common/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
-    vendor/lge/g3-common/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
     vendor/lge/g3-common/proprietary/lib/libalmcascore.so:system/lib/libalmcascore.so \
     vendor/lge/g3-common/proprietary/lib/libalmcaswrap.so:system/lib/libalmcaswrap.so \
     vendor/lge/g3-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
@@ -185,9 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lge/g3-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -223,10 +215,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/lge/g3-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/g3-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/lge/g3-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/lge/g3-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/g3-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
-    vendor/lge/g3-common/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-    vendor/lge/g3-common/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-    vendor/lge/g3-common/proprietary/etc/wifi/bcmdhd_lgit.cal:system/etc/wifi/bcmdhd_lgit.cal \
-    vendor/lge/g3-common/proprietary/etc/wifi/bcmdhd_murata.cal:system/etc/wifi/bcmdhd_murata.cal
+    vendor/lge/g3-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
