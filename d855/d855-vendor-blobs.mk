@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/d855/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/d855/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/d851/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/d855/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/d855/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/d855/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
@@ -66,4 +65,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/d855/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/d855/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/lge/d855/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so
+    vendor/lge/d855/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/lge/d855/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/lge/d855/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/lge/d855/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/lge/d855/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/lge/d855/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/lge/d855/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/lge/d855/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt

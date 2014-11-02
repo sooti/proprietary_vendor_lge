@@ -207,15 +207,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/g3-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g3-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lge/g3-common/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/g3-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g3-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/g3-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/g3-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/lge/g3-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/lge/g3-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/lge/g3-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/lge/g3-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/lge/g3-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/lge/g3-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/lge/g3-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    vendor/lge/g3-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
