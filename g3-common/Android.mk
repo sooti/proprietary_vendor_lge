@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter d851 d855 g3,$(TARGET_DEVICE)),)
+ifneq ($(filter d850 d851 d855 g3,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
